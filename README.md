@@ -57,7 +57,13 @@ i) Print outs of the .sif build process will show up in the terminal. If build i
  
 # 1.5 Troubleshooting .sif build  
 a) Extensions (beyond NECN 6.9 & SCRPPLE 3.2 that Kate already modified) WILL require modifying the /src/[extensionname].csproj. [LANDIS-II-Foundation/Core-Model-v7-LINUX](https://github.com/LANDIS-II-Foundation/Core-Model-v7-LINUX) has instructions for how to [modify each extension](https://github.com/LANDIS-II-Foundation/Core-Model-v7-LINUX#landis-ii-v7-extensions).  
+
 b) The extension release .zip url that is listed in the .sdef ***should*** pull down the most recent version of the extension. This will be dependent on whether or not the extension repository releases are up to date. If not, should ask the repository owner to make a new release.
+
+The urls should point to the releases you want to download:
+![Benjamin Bannekat](https://github.com/kejones8/ncsu-landis-ii-hpc/blob/main/imgs_for_readme/extension_urls.PNG)
+
+
 
 # 2. Put Singularity Image on HPC
 With a successfully built image/.sif that has all necessary LANDIS-ii extensions for running your model, need to put it up on the HPC. 
