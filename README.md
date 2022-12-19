@@ -19,10 +19,10 @@
   
 # 1. Build a Singularity Image (.sif)
 
-If intersted in only NECN 6.9 & SCRPPLE 3.2, the image in the google drive folder should work. Otherwise, steps below to help build your own image with customized extensions. 
+If intersted in only NECN 6.9 & SCRPPLE 3.2, the image in the google drive folder should work. Otherwise, steps below to help build your own image with customized extensions. In the google drive folder, the .sdef provided was used to build the .sif.
 
 ## Getting Singularity Installed & .sdef formatted
-a) An .sdef file is used to build the .sif. The [.sdef used](https://github.com/kejones8/ncsu-landis-ii-hpc/blob/main/working_hpc_landis-ii.sdef) is stored in this repo.   
+a) An .sdef file is used to build the .sif.
 
 b) Building the .sif from an .sdef requires installing singularity, which must occur on a LINUX machine with access to /root. Options for building a singularity image on local Windows/Mac and Linux below. 
 
