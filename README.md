@@ -200,7 +200,7 @@ HPC documentation for individual arguments, [here](https://hpc.ncsu.edu/Document
 After you're on a compute node, modify the text below in [braces] to start a LANDIS-ii simulation: 
 
 ```
-singularity exec --bind ${PWD}:/landis --home ${PWD}:/home/[unityid] --cleanenv /sr/local/usrapps/[hpcprojectnamefolder]/[nameofimageyoubuilt].sif dotnet /Core-Model-v7-LINUX-7/build/Release/Landis.Console.dll /landis/scenario_landscape.txt
+singularity exec --bind ${PWD}:/landis --home ${PWD}:/home/[unityid] --cleanenv /usr/local/usrapps/[hpcprojectnamefolder]/[nameofimageyoubuilt].sif dotnet /Core-Model-v7-LINUX-7/build/Release/Landis.Console.dll /landis/scenario_landscape.txt
 
 ```
 
