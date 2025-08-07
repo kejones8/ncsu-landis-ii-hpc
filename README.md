@@ -50,7 +50,7 @@ sudo apt install vagrant
  ```
  cd [pathto]/vm-singularity
  vagrant up
- vangrant ssh
+ vagrant ssh
  ```
    
 d) When first enter vagrant@vagrant, directory is /home/vagrant. You can pwd & cd around to explore. 
