@@ -5,7 +5,7 @@
 2) successfully built and run .sif
 3) .sdef used to build the .sif
 
-# Steps for LANDIS-II on NCSU HPC (Henry2)
+# Steps for LANDIS-II on NCSU HPC (Hazel)
 ***Note***: at the time this .README was created, NCSU is in the process of migrating to a new cluster: Hazel. Some steps may differ.
 
 # 0. Get Access to HPC
